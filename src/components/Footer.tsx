@@ -9,16 +9,9 @@ const Footer = () => {
         {
             icon: FaEnvelope,
             label: 'Email',
-            value: 'matheusmverissimo820@gmail.com',
-            href: 'mailto:matheusmverissimo820@gmail.com',
+            value: 'matheusmartinsvcontato@gmail.com',
+            href: 'mailto:matheusmartinsvcontato@gmail.com',
             color: 'from-red-500 to-pink-500'
-        },
-        {
-            icon: FaPhoneAlt,
-            label: 'Telefone',
-            value: '(81) 99331-4408',
-            href: 'tel:+5581993314408',
-            color: 'from-green-500 to-emerald-500'
         },
         {
             icon: FaMapMarkerAlt,
