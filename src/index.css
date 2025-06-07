@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-secondary text-light-gray;
+  font-family: 'Inter', sans-serif; /* Uma fonte limpa e moderna */
+}
+
+/* Adiciona um efeito de scroll suave */
+html {
+  scroll-behavior: smooth;
+}
