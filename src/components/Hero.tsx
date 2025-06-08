@@ -4,7 +4,6 @@ import {
     FaLinkedin,
     FaGithub,
     FaEnvelope,
-    FaPhoneAlt,
     FaCode,
     FaRocket,
     FaDownload
@@ -91,8 +90,7 @@ const Hero = () => {
                     {[
                         { icon: FaLinkedin, href: "https://www.linkedin.com/in/matheus-martins-8696422b8/", color: "from-blue-600 to-blue-700", label: "LinkedIn" },
                         { icon: FaGithub, href: "https://github.com/MatheusMV05", color: "from-gray-700 to-gray-800", label: "GitHub" },
-                        { icon: FaEnvelope, href: "mailto:matheusmverissimo820@gmail.com", color: "from-red-500 to-red-600", label: "Email" },
-                        { icon: FaPhoneAlt, href: "tel:+5581993314408", color: "from-green-500 to-green-600", label: "Telefone" }
+                        { icon: FaEnvelope, href: "mailto:matheusmartinsvcontato@gmail.com", color: "from-red-500 to-red-600", label: "Email" },
                     ].map((social, index) => (
                         <motion.a
                             key={index}

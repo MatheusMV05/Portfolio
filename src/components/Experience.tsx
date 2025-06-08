@@ -51,10 +51,6 @@ const Experience = () => {
                         whileHover={{ scale: 1.02 }}
                         className="relative pl-20 pb-12"
                     >
-                        <motion.div
-                            whileHover={{ scale: 1.1, rotate: 5 }}
-                            className="absolute left-6 w-5 h-5 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-full border-4 border-gray-900 z-10"
-                        ></motion.div>
 
                         <div className="bg-gray-800 p-8 rounded-2xl shadow-2xl border border-gray-700 hover:border-cyan-500 transition-all duration-300">
                             <div className="flex flex-wrap items-center justify-between mb-4">
@@ -67,11 +63,11 @@ const Experience = () => {
                             <ul className="space-y-3 text-gray-300">
                                 <li className="flex items-start space-x-3">
                                     <div className="w-2 h-2 bg-cyan-400 rounded-full mt-2 flex-shrink-0"></div>
-                                    <span>Liderei uma equipe de <strong className="text-white">4 desenvolvedores</strong> na criação do game "Abaddon", utilizando a metodologia <strong className="text-cyan-400">Scrum</strong> para organizar sprints e garantir entregas contínuas.</span>
+                                    <span>Liderei uma equipe de <strong className="text-white">4 desenvolvedores</strong> na criação do game "Helena", utilizando a metodologia <strong className="text-cyan-400">Scrum</strong> para organizar sprints e garantir entregas contínuas.</span>
                                 </li>
                                 <li className="flex items-start space-x-3">
                                     <div className="w-2 h-2 bg-cyan-400 rounded-full mt-2 flex-shrink-0"></div>
-                                    <span>Coordenei o ciclo de desenvolvimento do projeto, desde a prototipação no Figma até a implementação de mecânicas em C#, resultando em um protótipo funcional para o evento Forja Game.</span>
+                                    <span>Coordenei o ciclo de desenvolvimento do projeto, desde a prototipação das mecanicas até a implementação em C#, resultando em um protótipo funcional para o evento REC'nPlay.</span>
                                 </li>
                             </ul>
                         </div>
